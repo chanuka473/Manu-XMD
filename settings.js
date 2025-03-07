@@ -1,3 +1,23 @@
+Navigation Menu
+ManulOfcTech
+Manu-XMD
+
+Code
+Issues
+Pull requests
+8
+Actions
+Projects
+Security
+Insights
+Manu-XMD
+/settings.js
+ 
+70 lines (65 loc) · 4.78 KB
+
+Code
+
+Blame
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 //                                                                                                      //
 //                                    𝗠𝗔𝗡𝗨-𝗠𝗗  𝐁𝐎𝐓                                                 //
@@ -43,7 +63,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Manu-MD&tf9UhABL#_W9xYPwg_5a5qPFqaNeK4JN5eQDUVUvS0wc0kazAc1U' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SUDO: process.env.SUDO === undefined ? '94742274855' : process.env.SUDO,
@@ -67,4 +87,4 @@ ANTI_STICKER: process.env.ANTI_STICKER === undefined ? 'false' : process.env.ANT
 ANTI_PHOTO: process.env.ANTI_PHOTO === undefined ? 'false' : process.env.ANTI_PHOTO,
 MOROCCO_BLOCK: process.env.MOROCCO_BLOCK === undefined ? 'false' : process.env.MOROCCO_BLOCK,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://manul:qbWhglRV24IXQqDJbKIbtWADaSRj0e19@dpg-cuokgraj1k6c739an3s0-a/manu_md_db' : process.env.POSTGRESQL_URL,
-};
+};                                                                                                                           
